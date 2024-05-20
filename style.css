@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  .kanit-thin {
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: black;
+  color: goldenrod;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.navbar-links {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 20px;
+  margin-right: 20px;
+}
+
+.navbar-link a {
+  display: flex;
+  color: white;
+  text-decoration: none;
+}
+.navbar-link a:hover {
+  color: goldenrod;
+  text-decoration: underline;
+}
+.menu-toggle {
+  display: none;
+}
+/* Side Navbar*/
+
+.side-navbar {
+  background-color: black;
+  height: 100%;
+  width: 40%;
+  position: fixed;
+  top: 0%;
+  left: -60%;
+  padding: 20px;
+  transition: 50ms ease-in-out;
+  text-align: left;
+  color: aliceblue;
+}
+
+.side-navbar-link {
+  text-align: center;
+  margin-bottom: 20px;
+  padding-top: 30px;
+}
+
+#x-button {
+  cursor: pointer;
+  color: goldenrod;
+}
+.side-navbar-link a {
+  margin-bottom: 30%;
+  text-decoration: none;
+  color: aliceblue;
+  padding-bottom: 20px;
+}
+
+.side-navbar-link a:hover {
+  color: goldenrod;
+}
+
+.nav-bottom {
+  display: flex;
+  text-align: end;
+  text-decoration: none;
+  color: aliceblue;
+  margin-top: 150%;
+  justify-content: space-between;
+}
+
+.nav-bottom a {
+  text-decoration: none;
+  color: goldenrod;
+}
+.nav-bottom a:hover {
+  color: aliceblue;
+}
+
+/*Intro*/
+
+#welcome {
+  display: flex;
+  padding: 5px;
+  padding-bottom: 0;
+  padding-top: 20px;
+}
+.intro {
+  text-align: center;
+}
+.Banner image {
+  display: flex;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#ytink {
+  text-align: center;
+}
+#ytink a {
+  align-items: center;
+  text-decoration: none;
+  justify-content: space-between;
+  color: black;
+}
+.pass {
+  display: flex;
+  font-size: larger;
+  text-align: center;
+}
+
+.Endblock {
+  color: white;
+  display: flex;
+  background: #000;
+  text-align: center;
+  padding: 20%;
+  font-size: larger;
+}
+
+.links-for-pages img {
+  justify-content: space-between;
+}
+
+.links-for-pages a {
+  text-decoration: none;
+  color: #000;
+  justify-content: space-between;
+}
+
+.links-for-pages a:hover {
+  color: black;
+  text-decoration: underline;
+}
+img {
+  display: flex;
+  padding: 30px;
+  margin: 10px;
+  cursor: pointer;
+  align-items: center;
+  text-align: center;
+}
+.games {
+  margin: 40px;
+  text-align: center;
+}
+p {
+  font-style: normal;
+  font-size: large;
+}
+
+.games p a {
+  text-decoration: none;
+  color: black;
+  text-decoration: underline;
+}
+.ff {
+  margin: 40px;
+  text-align: center;
+}
+
+.ff p a {
+  text-decoration: none;
+  color: black;
+  text-decoration: underline;
+}
+.ef {
+  margin: 40px;
+  text-align: center;
+}
+.ef p a {
+  text-decoration: none;
+  color: black;
+  text-decoration: underline;
+}
+
+/*Media Qurey*/
+@media screen and (max-width: 700px) {
+  .menu-toggle {
+    display: block;
+    color: goldenrod;
+  }
+  .navbar-links {
+    display: none;
+  }
+  .Banner {
+    display: block;
+  }
+  .intro {
+    display: block;
+  }
+  img {
+    display: inline;
+  }
+}
